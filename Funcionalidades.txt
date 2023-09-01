@@ -1,0 +1,18 @@
+1.- Ingreso de posicion inicial mostrar
+2.- Validar formato de la posicion inicial
+3.- Ingreso tamano matriz
+4.-  Validar el formato de la matriz
+4.- Validacion posicion inicial dentro de la matriz
+5.- Ingreso de Comandos y Mostrar
+6.- Validacion del formato de los comandos
+7.- Mostrar en posicion inicial 1,2N giro a la derecha e izquierda
+8.- Mostrar en posicion inicial 1,2E giro a la derecha e izquierda
+9.- Mostrar en posicion inicial 1,2S giro a la derecha e izquierda
+10.- Mostrar en posicion inicial 1,2O giro a la derecha e izquierda
+11.- Mostrar  5,5/1,2N/IAIAIAIAA
+12.- Mostrar 5,5/3,3E/AADAADADDA
+
+*cada funcion commit*
+*cada prueba que pase commit*
+*Ensenar izquierda o derecha del punto cardinal actual*
+
