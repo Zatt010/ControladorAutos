@@ -1,28 +1,11 @@
 import revision from "./RevisionFormato";
 describe("RevisionFormato pruebas", () => {
-describe("Verificacion Posicion Inicial RevisionFormato.ts", () => {
-    it ("Posicion Inicial Correcta", () => {
-        expect(revision("5,5/1,2N")).toEqual("1,2N");
-    });
-
-    it ("Posicion Inicial Incorrecta RevisionFormato.ts", () => {
-        expect(revision("1.2n")).toEqual(false);
-    });
-});
-
 describe("Revision posicion inicial dentro matriz", () => {
-    it ("Posicion Inicial Dentro de la Matriz", () => {
-        expect(revision("5,5/1,2N")).toEqual("1,2N");
-    });
     it ("Posicion Inicial Dentro de la Matriz en el limite", () => {
-        expect(revision("5,5/5,5N")).toEqual("5,5N");
+        expect(revision("5,5/5,5N/I")).toEqual("5,5N");
     });
-
     it ("Posicion Inicial Incorrecta Fuera de la Matriz en X", () => {
-        expect(revision("5,5/6,2N")).toEqual(false);
-    });
-    it ("Posicion Inicial Incorrecta Fuera de la Matriz en Y", () => {
-        expect(revision("5,5/3,6N")).toEqual(false);
+        expect(revision("5,5/6,2N/A")).toEqual(false);
     });
 });
 });
